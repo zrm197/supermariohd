@@ -831,7 +831,7 @@ CMarioGUI::CMarioGUI()
     m_one_player_lab = createLabel();
     m_one_player_lab->setPosition(MarioGame().screenSize() / 2.f + Vector::down*80.f);
     m_one_player_lab->setTextAlign(CLabel::center);
-    m_one_player_lab->setString("1 PLAYER GAME");
+    m_one_player_lab->setString("1 PLAYER GAME --ZRM");
     m_one_player_lab->setFontColor(sf::Color(22, 85,122));
     addObject(m_one_player_lab);
 
